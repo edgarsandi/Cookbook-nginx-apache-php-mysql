@@ -2,9 +2,9 @@ chef-nginx-php55-mysql
 ======================
 
 クックブック
-CentOS 6.5でのみ確認済みやで
+CentOS 6.4でのみ確認済み
 
-vagrant box add centos65 https://github.com/2creatives/vagrant-centos/releases/download/v6.5.1/centos65-x86_64-20131205.box
+vagrant box add centos64 https://github.com/2creatives/vagrant-centos/releases/download/v0.1.0/centos64-x86_64-20131030.box
 
 vagrant ssh-config --host host_name >> ~/.ssh/config
 
