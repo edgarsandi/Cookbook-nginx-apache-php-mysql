@@ -1,4 +1,4 @@
-chef-nginx-php55-mysql
+Cookbook-nginx-apache-php55-mysql
 ======================
 
 クックブック
