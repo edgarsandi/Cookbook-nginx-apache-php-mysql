@@ -17,6 +17,12 @@ package node['remi']['file_name'] do
     source "/tmp/#{node['remi']['file_name']}"
 end
 
+execute "yum-update" do
+    user "root"
+    command "yum -y update"
+    action :run
+end
+
 %w{vim}.each do |pkg|
     package pkg do
         action :install

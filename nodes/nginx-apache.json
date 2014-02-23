@@ -4,5 +4,6 @@
         , "recipe[php]"
         , "recipe[mysql]"
         , "recipe[nginx]"
+        , "recipe[apache]"
     ]
 }
