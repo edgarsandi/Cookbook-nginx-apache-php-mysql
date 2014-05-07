@@ -12,7 +12,7 @@ $ cd clone_dir
 
 $ vagrant box add centos64 https://github.com/2creatives/vagrant-centos/releases/download/v0.1.0/centos64-x86_64-20131030.box
 
-$ mv vagrant init
+$ vagrant init
 
 $ mv Vagrantfile_default ./Vagrantfile
 
